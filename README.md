@@ -28,3 +28,7 @@ pod spec lint YJSettingTableView.podspec --verbose
 
 10、发布
 pod trunk push WXWCategory.podspec
+
+11、更新的时候
+pod cache clean --all // 清除pod缓存
+
