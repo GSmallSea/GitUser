@@ -1,9 +1,9 @@
 # GitUser
-1、
+#1、
 git init
 git add README.md
 git add .
-2、
+#2、
 git commit -m "first commit"
 3、
 git remote add origin https://github.com/GSmallSea/eee.git
