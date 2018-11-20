@@ -32,3 +32,29 @@ pod trunk push WXWCategory.podspec
 11、更新的时候
 pod cache clean --all // 清除pod缓存
 
+
+
+.podspec配置
+
+Pod::Spec.new do |spec|
+
+  spec.name         = "XHModualA"
+  spec.version      = "0.0.1"
+  spec.summary      = "a"
+  spec.description  = "AAA"
+
+  spec.homepage     = "https://github.com/GSmallSea/XHModualA.git"
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.author             = { "GSmallSea" => "gxiao_hai@163.com" }
+  spec.source       = { :git => "https://github.com/GSmallSea/XHModualA.git", :tag => "#{spec.version}" }
+  spec.ios.source_files  = "XHModualA","XHModualA/**/*.{h,m}"
+  spec.exclude_files = "Classes/Exclude"
+  spec.ios.framework = 'UIKit'
+  spec.osx.framework = 'AppKit'
+  spec.ios.deployment_target = '9.0'
+
+end
+
+
+
+
