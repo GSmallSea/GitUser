@@ -3,9 +3,9 @@
     git init
     git add README.md
     git add .
-### 2、
+     2、
     git commit -m "first commit"
-### 3、
+    3、
     git remote add origin https://github.com/GSmallSea/eee.git
     4、注意：要是第一次上传项目的话push之前要先git pull 一下。
     git pull origin master --allow-unrelated-histories
